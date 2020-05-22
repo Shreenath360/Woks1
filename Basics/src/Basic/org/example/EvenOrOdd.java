@@ -3,18 +3,19 @@ package Basic.org.example;
 public class EvenOrOdd {
 
 	public static void main(String[] args) {
-    int num=13;
-  for(int i=1;i<=num;i++);
+    int num=6;
+  for(int i=2;i<=5;i++);
   {
 	  if(num%2 ==0)
 	  {
-		  System.out.println("the number is Even");
+		  System.out.println("the number is not weird");
 	  }
+  
 	  else
 	  {
-		  System.out.println("the number is odd");
+		  System.out.println("the number is weird");
 	  }
-  }
-
+  
+	}
 }
 }
